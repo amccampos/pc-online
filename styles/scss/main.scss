@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+@import './variables';
+
+
+.reveal .slides {
+  text-align: left;
+}
+
+li li {
+  font-size: smaller;
+}
+
+.frontpage h1 {
+  margin-top: 30%;
+}
+.frontpage p {
+  font-size: 2rem;
+}
+
+.reveal {
+  background: $gradient;
+  font-family: 'Baloo 2', cursive;
+  color: $text-color;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo 2', cursive;
+    color: $primary;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-shadow: $shadow;
+    code {
+      font-family: 'Courier New', Courier, monospace;
+    }
+  }
+  h2 {
+    font-size: 1em;
+  }
+
+  ol, ul, dl, img, ul ul, ul ol, ol ol, ol ul {
+    margin: 0;
+  }
+
+  img, video, iframe {
+    max-width: unset;
+    max-height: unset;
+  }
+
+  strong, b {
+    color: $danger;
+  }
+
+  em {
+    color: $info;
+  }
+
+  pre, pre > code {
+    border-radius: 10px;
+    box-shadow: unset;
+  }
+
+  pre > code {
+    padding: 1rem;
+  }
+
+  .fright {
+    float: right;
+  }
+  .fleft {
+    float: left;
+  }
+
+  .attention {
+    border: 3px solid $warning-dark;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: $warning;
+    color: $warning-dark;
+  }
+
+  .term {
+    // border: 1px solid #ccc;
+    padding: 1rem;
+    background: $terminal-bg;
+    color: $terminal-color;
+    font-family: monospace;
+    font-size: 1.4rem;
+    width: 87%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .variables {
+    // border: 1px solid #2f5992;
+    padding: 1rem;
+    background: $output-bg;
+    color: $output-color;
+    font-family: monospace;
+    font-size: 1.4rem;
+    width: 87%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+}

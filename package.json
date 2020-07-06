@@ -1,0 +1,26 @@
+{
+  "name": "tst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "reveal-md": "^4.1.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "node-sass-chokidar": "^1.5.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "dev": "run-s build-css watch",
+    "watch": "run-p server watch-css",
+    "server": "reveal-md . -w  --listing-template index-dev.html",
+    "build-css": "node-sass-chokidar styles/scss/main.scss -o styles",
+    "watch-css": "chokidar 'styles/scss/**/*.scss' -c 'npm run build-css'",
+    "build": "reveal-md . --static dist --static-dirs=assets --listing-template index-static.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

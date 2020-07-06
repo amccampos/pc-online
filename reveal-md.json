@@ -1,0 +1,8 @@
+{
+  "glob": "*.md",
+  "separator": "^===",
+  "verticalSeparator": "^---",
+  "css": "styles/main.css",
+  "preprocessor": "scripts/preproc.js",
+  "scripts": "scripts/aula4.js"
+}
