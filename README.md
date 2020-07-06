@@ -1,5 +1,4 @@
-Slides das aulas de Pensamento Computacional
-
-Durante a elaboração das aulas, use o comando `npm run dev`. O comando irá compilar os arquivos .md e .scss, inicilizará um servidor e abrirá uma janela do navegador. As modifcações nos arquivos atualizarão os slides.
-
-Ao terminar, para exportar/distribuir os slides, execute o comando `npm run build`. O comando irá criar uma pasta `dist` contendo os arquivos necessários à distribiução. *Obs*: caso queira exportar novamente, é necessário apagar a versão antiga.
+[Aula 1 - Entrada e saída usando programação visual](#)
+[Aula 2 - Laços e funções  usando programação visual](#)
+[Aula 3 - Entrada e saída em Python](#)
+[Aula 4 - Laços e funções em Python](./dist/aula4.html)
