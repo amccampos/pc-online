@@ -1,13 +1,13 @@
 # Repetições
 * Repetições nos blocos
-  $img(../assets/images/lacos.png)
+  $img(assets/images/lacos.png)
 * Há apenas 2 formas de repetições em Python[.fragment]
   * Enquanto...
   * Para...
 
 ---
 # Laço enquanto
-$img(../assets/images/laco_enquanto.png)[.fright]
+$img(assets/images/laco_enquanto.png)[.fright]
 Similar ao laço do bloco
 
 (@[.fragment]
@@ -70,7 +70,7 @@ Saída
 
 ---
 # Laço para (`for`)
-$img(../assets/images/laco_conte.png)[.fright]
+$img(assets/images/laco_conte.png)[.fright]
 Pode substituir o bloco `conte`, porém é mais genérico
 
 (@[.fragment]
@@ -133,7 +133,7 @@ range(5, 10)   --> [5, 6, 7, 8, 9]
 
 Permite simular o bloco `conte até`
 
-$img(../assets/images/laco_conte.png)[.fright]
+$img(assets/images/laco_conte.png)[.fright]
 ```python
 for i in range(0, 11, 1):
   ...
@@ -190,7 +190,7 @@ for i in range(v, 100, v): # imprime os múltiplos de um valor
 
 ---
 # Quebra/continuação de laços
-$img(../assets/images/break_continue.png)[.fright]
+$img(assets/images/break_continue.png)[.fright]
 Similares aos blocos
 
 * `break`: para o laço
