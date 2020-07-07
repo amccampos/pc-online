@@ -1,7 +1,3 @@
-[Aula 1 - Entrada e saída usando programação visual](#)
+## Sildes da disciplina de Pensamento Computacional
 
-[Aula 2 - Laços e funções  usando programação visual](#)
-
-[Aula 3 - Entrada e saída em Python](#)
-
-[Aula 4 - Laços e funções em Python](./dist/aula4.html)
+Para visualizar os slides, visite: https://amccampos.github.io/pc-online/
